@@ -1,0 +1,2 @@
+select "used_mb" from nonasm_diskgroup_fcst
+/

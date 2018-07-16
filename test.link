@@ -1,0 +1,6 @@
+drop database link test_links
+CREATE DATABASE LINK test_links
+   USING '(DESCRIPTION_LIST=
+    (description=(address=(protocol=tcp)(host=coo-hyodl01)(port=1528))(connect_data=(service_name=epmdev))) 
+)';
+
